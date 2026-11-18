@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "20261118T171419Z--gastown-fork-issue-1-published",
+  "recorded_at": "2026-11-18T17:14:19Z",
+  "actor": "xLagerFeuer (explicit current-conversation publication approval) / ChatGPT (executor)",
+  "kind": "PUBLICATION",
+  "contribution_id": null,
+  "decision": "PUBLISHED_FORK_LOCAL_ISSUE",
+  "scope": "opensiro-contributions/gastown issue #1 only; exact title/body from pinned issue.md, no original-repository publication or code implementation",
+  "evidence_urls": [
+    "https://github.com/opensiro-contributions/gastown/issues/1",
+    "https://github.com/opensiro-contributions/gastown/blob/925c9eb3aac36be7952e0a75d458d64cd96270c3/.opensiro/issues/capability-roadmap-runtime-adaptation-20261118/issue.md",
+    "https://github.com/opensiro-contributions/gastown/commit/925c9eb3aac36be7952e0a75d458d64cd96270c3"
+  ],
+  "source_issue_body_blob_sha": "424450fccca6ce1ed7a14a105ea983560658600c",
+  "next_action": "Resolve NEEDS_EVIDENCE from original code/PR overlap and Gas City ownership before any implementation or outward publication."
+}

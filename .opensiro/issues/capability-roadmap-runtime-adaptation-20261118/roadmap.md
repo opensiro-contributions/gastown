@@ -71,7 +71,7 @@
 
 - Result: NEEDS_EVIDENCE
 - Route: PLAN_ONLY; existing source-linked Human and AI materials are discussion proposals only.
-- Fork public Issue: **AWAITING EXACT CURRENT-CONVERSATION APPROVAL**; draft body at [issue.md](https://github.com/opensiro-contributions/gastown/blob/opensiro/meta/.opensiro/issues/capability-roadmap-runtime-adaptation-20261118/issue.md).
+- Fork public Issue: **PUBLISHED — [#1](https://github.com/opensiro-contributions/gastown/issues/1)**, exact owner-approved title/body from [issue.md](https://github.com/opensiro-contributions/gastown/blob/opensiro/meta/.opensiro/issues/capability-roadmap-runtime-adaptation-20261118/issue.md), verified from GitHub at 2026-11-18T17:14:19Z UTC (body unchanged).
 - External issue: DRAFT — NOT PUBLISHED
 - Original implementation, fork-local review PR, third-party Issue/PR, native test and autonomous VSM grade change: NOT PERFORMED.
-- Next permitted action: current owner confirms exact public fork Issue title/body; then use first-party issue creation and readback. No original maintainer communication without separate approval.
+- Next permitted action: review remaining first-party S4 evidence and Gas Town versus Gas City ownership against current original code and open issues; any original maintainer communication needs separate exact approval.

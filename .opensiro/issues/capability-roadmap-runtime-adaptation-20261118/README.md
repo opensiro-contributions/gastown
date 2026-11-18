@@ -2,7 +2,7 @@
 
 **Original:** [gastownhall/gastown](https://github.com/gastownhall/gastown) → verified [opensiro-contributions/gastown](https://github.com/opensiro-contributions/gastown) (`fork=true`, parent `gastownhall/gastown`).  
 **Storage:** `opensiro/meta:.opensiro/issues/capability-roadmap-runtime-adaptation-20261118/` — never product/main.  
-**Status:** PLAN_ONLY / NEEDS_EVIDENCE; fork Issue **AWAITING EXACT OWNER PUBLICATION CONSENT**.  
+**Status:** PLAN_ONLY / NEEDS_EVIDENCE; fork Issue **PUBLISHED** ([#1](https://github.com/opensiro-contributions/gastown/issues/1)); publication approved for exact title/body, unchanged from `issue.md`.  
 **Observation:** 2026-11-18.
 
 ## One case, two audiences
@@ -20,8 +20,8 @@
 
 ## Public Issue and ownership
 
-**Fork public GitHub Issue:** NOT CREATED. The public fork Issue tracker is enabled, but OpenSiro publication protocol requires separate exact title/body approval in the present conversation. Do not report an Issue URL/number until created/read back.  
+**Fork public GitHub Issue:** [#1 — published and read back](https://github.com/opensiro-contributions/gastown/issues/1) at 2026-11-18T17:14:19Z (UTC), with the exact user-approved title and full unchanged `issue.md` text (blob `424450fccca6ce1ed7a14a105ea983560658600c`).  
 **External original Issue:** DRAFT — NOT PUBLISHED; preferred outcome first is reuse or link existing original #4332/#232/#1143, not duplicate publication.  
-**Next decision:** approve exact fork issue title/body; then publish and read back in this fork only. After publication, update this README with actual issue receipt if metadata-write rights and owner control still permit. Current user request authorizes preparation and durable recording, **not automatic external/original publication**.
+**Next decision:** review source-native overlap, target ownership (Gas Town versus Gas City) and missing S4 evidence before any implementation; **no original-repository publication, code or PR is authorized**. The owner explicitly approved this **fork-local Issue only** in the current conversation.
 
 The case is one research/discussion record, **not** an independently implemented `.opensiro/contributions/` entry. Any later source implementation requires a separate `upstream upgrade` instruction and original-native validation.
