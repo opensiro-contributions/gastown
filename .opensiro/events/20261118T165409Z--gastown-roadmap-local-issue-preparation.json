@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "20261118T165409Z--gastown-roadmap-local-issue-preparation",
+  "recorded_at": "2026-11-18T16:54:09Z",
+  "actor": "xLagerFeuer (operator instruction) / ChatGPT (executor)",
+  "kind": "DECISION",
+  "decision": "ALLOW",
+  "scope": "This one Gas Town roadmap: provision matching OpenSiro fork, save plan-only case on opensiro/meta, enable fork Issues, prepare exact public fork Issue for separately approved publication; no product code, no external-original write, no standing autonomous delegation.",
+  "contribution_id": null,
+  "evidence_urls": [
+    "https://github.com/gastownhall/gastown/commit/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e",
+    "https://github.com/opensiro/vsm-harness-index/blob/03b3cd41621b85cb4c2418eab574db030493512c/assessments/ga/gastown.md",
+    "https://github.com/opensiro/upstream/blob/main/PROTOCOL.md"
+  ],
+  "next_action": "Request exact current-conversation approval of fork GitHub Issue title/body before public issue create; do not infer consent."
+}
