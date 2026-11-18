@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "20261118T173004Z--gastown-roadmap-s4-target-verdict",
+  "recorded_at": "2026-11-18T17:30:04Z",
+  "actor": "ChatGPT (source-backed read-only roadmap reviewer)",
+  "kind": "DECISION",
+  "contribution_id": null,
+  "decision": "NO_USEFUL_CHANGE",
+  "scope": "New S4 future runtime adaptation constructor in retired gastownhall/gastown only; this does not adjudicate gastownhall/gascity S4.",
+  "evidence_urls": [
+    "https://yegge.ai/gastown",
+    "https://github.com/gastownhall/gastown/issues/3147#issuecomment-4151252437",
+    "https://github.com/gastownhall/gascity/blob/11a3589ab9e5df40150028b9461a98c605ad3965/docs/getting-started/coming-from-gastown.md",
+    "https://github.com/opensiro-contributions/gastown/issues/1"
+  ],
+  "next_action": "No Gas Town S4 implementation. If pursuing S4 in Gas City, perform separate source-native roadmap/review with current Gas City evidence and no inherited Index grades or auto publication."
+}

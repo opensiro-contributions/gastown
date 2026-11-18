@@ -2,8 +2,13 @@
 
 **Original:** [gastownhall/gastown](https://github.com/gastownhall/gastown) → verified [opensiro-contributions/gastown](https://github.com/opensiro-contributions/gastown) (`fork=true`, parent `gastownhall/gastown`).  
 **Storage:** `opensiro/meta:.opensiro/issues/capability-roadmap-runtime-adaptation-20261118/` — never product/main.  
-**Status:** PLAN_ONLY / NEEDS_EVIDENCE; fork Issue **PUBLISHED** ([#1](https://github.com/opensiro-contributions/gastown/issues/1)); publication approved for exact title/body, unchanged from `issue.md`.  
+**Latest decision:** PLAN_ONLY / NO_USEFUL_CHANGE for a new S4 constructor in Gas Town (follow-up 2026-11-18); original published Issue remains the historical NEEDS_EVIDENCE snapshot. Fork Issue **PUBLISHED** ([#1](https://github.com/opensiro-contributions/gastown/issues/1)); publication approved for exact title/body, unchanged from `issue.md`.  
 **Observation:** 2026-11-18.
+
+
+## Latest verification verdict
+
+**[Follow-up source review: NO_USEFUL_CHANGE for new S4 implementation in retired Gas Town](verification-20261118.md).** Maintainer confirmed migration to Gas City, and Gas City's runtime packs, agents, orders, formulas and events are the present first-party engineering extension surface. A separate Gas City S4 constructor hypothesis remains **NEEDS_EVIDENCE**, not DECISION_READY for implementation. No issue comments, Issue-body edits or original-repository actions were made.
 
 ## One case, two audiences
 
