@@ -1,77 +1,92 @@
-# Capability Roadmap Receipt — Gas Town (source-pinned, plan-only)
+# Gas Town — independent six-function roadmap receipt (Upstream v0.18)
 
 ## Identity and pins
-
 - Original repository: gastownhall/gastown
 - Original HEAD: 94cc82289d2ead275a62e1db4ef1d4ada4a1f98e
-- Observed at: 2026-11-18
-- Accepted Index assessment: https://github.com/opensiro/vsm-harness-index/blob/03b3cd41621b85cb4c2418eab574db030493512c/assessments/ga/gastown.md
+- Observed at: 2026-11-19
+- Accepted Index assessment: https://github.com/opensiro/vsm-harness-index/blob/394ce776e6945115891b8f7cc459f5a7f7d7aa39/assessments/ga/gastown.md
 - Accepted assessment blob SHA: 63864bc37d10e192d0ae8a96d1bfd6307bb03a09
 - Accepted review ref: 649b832b7672bc7a2dbef26f5983aba6198b819b
 - Accepted reviewed at: 2026-09-19
-- System in focus: One first-party Gas Town workspace, including canonical Mayor, Polecat, Refinery, Witness, Deacon, rigs, Beads state and runtime/config/session boundaries; external models and third-party GitHub outside claimed ownership
-- Historical profile and assessment procedure: 0.2.3 / 0.3.5; **S1=A · S2=A · S3=A · S3*=A · S4=— · S5=—**; 60 days since accepted review, recommend source-pinned Index re-review without assuming a new grade.
-- Original default branch: main, source: https://github.com/gastownhall/gastown/commit/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e; working fork: https://github.com/opensiro-contributions/gastown, correct parent confirmed.
-- Human Issue: https://github.com/opensiro-contributions/gastown/blob/opensiro/meta/.opensiro/issues/capability-roadmap-runtime-adaptation-20261118/issue.md
-- AI/developer contract: https://github.com/opensiro-contributions/gastown/blob/opensiro/meta/.opensiro/issues/capability-roadmap-runtime-adaptation-20261118/constructor-sufficiency.md
+- Profile / Skills procedure: 0.2.3 / 0.3.5
+- System in focus: one first-party Gas Town installation with Mayor, Polecats, Refinery, Witness, Deacon and associated hooks, rigs, Beads/convoys and session/capacity operations; external model vendors and Overseer ultimate policy excluded
+- Receipt contract: proposal-gate
+- Repository-wide source map: pinned README, CONTRIBUTING, LICENSE, docs/design/runtime/model-aware-molecules, Go cmd/gt, internal/config, agent/provider, version/upgrade, sessions, daemon, scheduler, polecat, witness, refinery, tests, CI, native Issues/PRs and maintainer transition notices
+- Accepted VSM vector: S1=A · S2=A · S3=A · S3*=A · S4=— · S5=—
+- Target transition: NO_QUALIFIED_C_TARGET
+- Priority rationale: operations, coordination, present whole-town control and independent corrective audit already have autonomous A closure; prospective future environment decision has no clearly bounded incremental first-party C target distinct from current provider maintenance, proposed model-routing docs and the maintainers' shift of novel development to Gas City; S5 ultimate purpose belongs to Overseer/parent
+- S1 disposition: ALREADY_A — Polecat agent independently edits code in isolated rig/worktree and returns branch/result
+- S2 disposition: ALREADY_A — Refinery coordinates and sequences competing integration outputs through merge queue
+- S3 disposition: ALREADY_A — Mayor owns present cross-rig task dispatch/priorities and receives escalation/results
+- S3* disposition: ALREADY_A — separate Refinery review/tests plus Witness corrections can block and reroute failed worker output
+- S4 disposition: NO_TARGET — manual gt upgrade/version staleness and provider config/roadmap proposal do not form an installed future-oriented autonomous adaptation actor or demonstrated minimal safe extra C port; do not assume all future adaptation is undesirable
+- S5 disposition: NO_TARGET_PARENT_SCOPE — ultimate policy and project priorities are Overseer/parent decisions; no independent local constitutional actor established; intentional exclusion not proven beyond this ownership boundary
+- P1 dependencies: NONE — no selected qualified C port; evidence for another future-recursion owner and matched task would be required before reopening
+- P2 optional: NONE
+- Proposed C construction: NONE — hypothetical provider-version/model-future adaptation would require new verified future signal, operator-approved decision envelope, developer-composed chooser, lawful later session effect and returned outcome; no small qualified distinct first-party integration survives current source/ownership screen
+- C sufficiency falsifier: show an original-supported future-provider/model change scenario with a bounded developer-composed autonomous S4 choice, safe effect on later work, actual task feedback into Mayor/current management and differentiated result over manual upgrade/current provider config and successor-path development
+- Scenario basis: HYPOTHETICAL
+- Proposal-stage decision: NO_GO
+- Research disposition: NO_USEFUL_CHANGE
+- Proposed validation: if reopened, use the same dated future provider change and next coding task for (a) native gt manual config/upgrade, (b) Gas City maintainer-directed option, and (c) claimed Gas Town S4 constructor; test authority, two lawful choices, no-owner/forbidden/stale negative and later task feedback before any feature proposal
+- Validation state: NOT_RUN
+- Proposal falsifier: a concrete compatible current original first-party C path (or small missing first-party port) with legitimate owner and later task closure absent from stock methods and legitimately owned in Gas Town itself
 
 ## Rights and authority
-
-- Root source license: MIT (read actual text, [LICENSE](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/LICENSE)); external source is readable and forkable.
-- [Contributing policy](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/CONTRIBUTING.md): external contributors use fork feature branches and PRs; significant changes require prior issue; native `go build -o gt ./cmd/gt && go test ./...`.
-- Formalities: no affirmative claim that personal CLA/DCO or AI disclosure requirements are waived; recheck before outside publication.
-- Fork `opensiro/meta`: case metadata only; exact public fork Issue text requires distinct current-conversation approval. Original external issue/PR needs another exact approval. No human attestation performed.
+- Original MIT [LICENSE](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/LICENSE); [CONTRIBUTING](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/CONTRIBUTING.md) welcomes scoped external work. Any separate CLA/DCO or AI policy NOT_VERIFIED.
+- Fork opensiro-contributions/gastown state read on 2026-11-19: owner_control=ALLOW, attention=WATCHING; fork metadata may be updated but no public Issue/PR, original maintainer message or code patch is authorized
+- The repo remains public, not archived; [maintainer closure on original issue #3147](https://github.com/gastownhall/gastown/issues/3147#issuecomment-4151252437) directs newly relevant pool/model strategy toward Gas City. Do not infer that all Gas Town development has stopped or that GitHub authority transferred
 
 ## Existing work / overlap
-
-- SHIPPED: [runtime presets](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/config/agents.go), [config and cost tiers](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/cmd/config.go), [agent-provider integration](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/docs/agent-provider-integration.md), [Mayor S3 owner](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/templates/roles/mayor.md.tmpl).
-- MERGED: [cost-tier #1564](https://github.com/gastownhall/gastown/pull/1564).
-- OPEN ORIGINAL ISSUES: [#232 rate-limit failover](https://github.com/gastownhall/gastown/issues/232); [#4332 provider transition](https://github.com/gastownhall/gastown/issues/4332); [#1143 cost/outcome learning](https://github.com/gastownhall/gastown/issues/1143).
-- CLOSED ORIGINAL ISSUE: [#3147 pool proposal](https://github.com/gastownhall/gastown/issues/3147), closed with maintainer Gas City transition note.
-- CLOSED UNMERGED: [#1729 cost learning PR](https://github.com/gastownhall/gastown/pull/1729).
-- OPEN ORIGINAL PR: [#4981 pricing update](https://github.com/gastownhall/gastown/pull/4981).
-- No overlapping fork-local Issue before case creation; fork Issue tracker was disabled on fresh fork and enabled for explicitly requested local Issue path. These observations are dated, not permanent claims of current statuses.
+- SHIPPED: [README](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/README.md) describes Mayor/Polecats/Refinery/Witness and current provider configuration; [staleness checker](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/version/stale.go) detects binary branch drift; [manual upgrade](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/cmd/upgrade.go) modifies local setup; [agent provider layer](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/agent/provider/provider.go), [operational config](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/config/operational.go) and [scheduler](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/scheduler/capacity/config.go) regulate present operation.
+- DOCUMENT ONLY: [model-aware molecules plan](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/docs/design/model-aware-molecules.md) describes future routing/pricing; at pinned HEAD, the described `internal/models` router/database paths are not present as source files. Do not credit document checkboxes as shipped full S4 ownership.
+- Maintainer [Issue #3147](https://github.com/gastownhall/gastown/issues/3147) closed on 2026-03-29 with a direction to refile relevant pool work in Gas City; independent owner evidence, not proof that repository is archived
+- Existing native cheapest baseline: configured role agents, current-model CLI and manually supervised upgrade; no source-backed requirement for new original S4 runtime controller
 
 ## Function ownership
-
-- Historical S1=A Polecats (operational decisions), S2=A Refinery (inter-Polecat merge interference), S3=A Mayor (current town resources and work commitments), S3*=A Refinery (independent verification); each excluded from mandatory C target.
-- Historical S4=—: no qualifying external/future option→adaptation→current-control feedback path at reviewed pin. Current-main proof still incomplete; conditional C hypothesis, not a defect assertion.
-- Historical S5=—: no separate ultimate-purpose policy closure at assessed boundary; preserved operator rights, no manufactured S5.
-- S4 disturbance/decision/return proposal: prospective runtime deprecation or compatibility change → developer-bound S4 autonomous actor selects approved retain/migrate/hold alternative → first-party authorization and future session apply → session result returned to Mayor S3.
+- S1 Polecats select coding actions and return work; A
+- S2 independent Refinery manages integration interference; A
+- S3 Mayor makes whole-town current decisions and receives feedback; A
+- S3* separate Witness/Refinery quality gate returns failure/review; A
+- S4 no demonstrated distinct first-party future adaptation loop; current version warning and manually authored provider config do not own it; NO_TARGET
+- S5 Overseer/human identity/purpose/policy outside installed town; no unverified forced S5 feature
 
 ## Capability priority
+- P0: NO_QUALIFIED_C_TARGET — do not create another S4 model/controller feature in this original without a source-native distinct task and future-to-current feedback path
+- P1: NONE; future inquiry may be routed to correct current maintainer-owned product and verified natively
+- P2: NONE
+- Confidence: medium on narrow no-qualified-target; high accepted assessment provenance; cost and native outcome unmeasured
 
-- **P0 S4:** smallest useful function-specific developer-composable prospective runtime adaptation path, if a material residual task survives source overlap.
-- **P1:** verified future event + versioned legal options + developer decision binding + guarded native config/session application + truthful later session feedback; may execute before P0.
-- **P2: NONE:** no separately justified S3 or S5 enhancement.
-- **Conditional C sufficiency:** all five linked proposed ports and positive/alternative/negative/feedback tests are required to prove one complete supported first-party pathway; roadmap design is not accepted Index C.
-- **Decision:** NEEDS_EVIDENCE: clarify maintainer Gas City ownership, specific operator need and real current-main S4 gap; simplest native alternative may win.
+## Parallel contribution-on-top review
+- Evaluation object: current Gas Town original's smallest function-specific Sx-to-C constructor across six functions, not the organizational decision to stop maintaining the entire repository
+- Existing-work overlap: autonomous current role and audit loops, version staleness/current config, manual gt upgrade, unimplemented model-aware routing design and existing owner issue #3147 shift to Gas City
+- Our on-top contribution: NONE qualified as a new first-party S4 port. A hypothetical forecast agent with future signal, allowlisted choices and later action requires a much larger unauthorized boundary and duplicates a successor-directed field of work
+- Incremental benefit: NOT_ESTABLISHED. No claims of savings, maintainer support or superior next-session outcomes compared with current config and new Gas City follow-up
+- Decision scope: NO_GO for the evaluated incremental C constructor on pinned original, not NO_GO for Gas Town product, nor a declaration that its historical S4 assessment is necessarily current
+
+| S4 C link | Track A: original-native | Track B: independent smallest candidate | Reason for exclusion/falsifier |
+|---|---|---|---|
+| Future signal | Version staleness compares binary to repository ref; design doc describes model metadata | Scheduled future model/provider compatibility probe | No installed trustworthy future signal plus policy envelope for this recursion |
+| Developer composed choice | Current provider configs and proposed model router (not source-shipped at HEAD) | Opt-in autonomous retain/migrate/hold agent | No bounded new first-party actor/owner demonstrated; host/Overseer may already decide |
+| Enforced later effect | Manual upgrade and current role agent config | Guarded future session provider change in core | Would need novel config/session atomicity; owner routes new strategy discussion to Gas City |
+| Returned feedback | Mayor/Refinery consume current execution results | Real next session result returns to prospective agent through Mayor | No scoped S4 return owner; conjecture is not a complete minimally qualified new construction |
 
 ## Implementation options
-
-- Prefer native issues/PR integration rather than parallel VSM architecture: assess original #4332, #232, #1143 and future target owner; retain compatibility with provider registry and cost-tier settings.
-- Smallest source-native implementation, **only after separate authorization**, would reuse `internal/config/agents.go`, `internal/config/loader.go`, `internal/cmd/config.go`, existing role/formula/session state; add only justified missing future signal, decision, rights, application and receipt.
-- Acceptance scenarios in [AI companion](https://github.com/opensiro-contributions/gastown/blob/opensiro/meta/.opensiro/issues/capability-roadmap-runtime-adaptation-20261118/constructor-sufficiency.md): real later session with different lawful choice; negative unapproved provider/revocation/stale revision; preserving active assignments; failed launch return; native baseline control.
-- Test commands are proposed, NOT EXECUTED: `go build -o gt ./cmd/gt`, `go test ./internal/config/...`, `go test ./internal/cmd/...`, `go test ./...`.
-- Stop at **NO_USEFUL_CHANGE** if already-shipped provider configuration or Gas City covers same user task with no material additional benefit.
+- NOW: no first-party S4 implementation or extra external PR; current native maintainer issues and direct fixes can continue independently
+- Only reopen if a source-backed original-specific outside/future problem, rightful editor/decision, later real return and differentiated C port are established; do not import Gas City as if it were already the same original
 
 ## Specification and domain alternatives
-
-- Profile/Skills feedback only if fresh evidence reveals ambiguity in S4/S3 semantics or C-construction methodology.
-- Legally permissible domain-scoped experimental fork is an independent alternative; no default adoption or original maintainer authority.
-- Do not optimize historical grades or infer `A → C` conversion; native user need outranks taxonomy.
+- Upstream does not modify Index/Profile/Skills; an Index reassessment is separate and not triggered by the absence of a new S4 feature
+- Gas City is a different source/review object with its own Index grade and fork gate, even though maintainer directed issue #3147 to it
 
 ## Cost experiment
-
-- Compare identical upcoming provider migration via manual presets/role configuration vs source-native developer-composed S4 controller.
-- Record implementation, integration, review, validation, repeated migration, compatibility/support, human escalation, maintenance costs and later first-party execution success. No values independently measured.
+- Matched future model change / allowed alternatives / same task: native role config+gt upgrade against imagined S4 agent and independent Gas City option; test later task rather than configuration acknowledgement only
 - Cost status: NOT_MEASURED
 
 ## Delivery and publication
-
-- Result: NEEDS_EVIDENCE
-- Route: PLAN_ONLY; existing source-linked Human and AI materials are discussion proposals only.
-- Fork public Issue: **PUBLISHED — [#1](https://github.com/opensiro-contributions/gastown/issues/1)**, exact owner-approved title/body from [issue.md](https://github.com/opensiro-contributions/gastown/blob/opensiro/meta/.opensiro/issues/capability-roadmap-runtime-adaptation-20261118/issue.md), verified from GitHub at 2026-11-18T17:14:19Z UTC (body unchanged).
+- Result: NO_USEFUL_CHANGE
 - External issue: DRAFT — NOT PUBLISHED
-- Original implementation, fork-local review PR, third-party Issue/PR, native test and autonomous VSM grade change: NOT PERFORMED.
-- Next permitted action: review remaining first-party S4 evidence and Gas Town versus Gas City ownership against current original code and open issues; any original maintainer communication needs separate exact approval.
+- Human: [issue.md](issue.md). AI: [constructor-sufficiency.md](constructor-sufficiency.md). Canonical receipt: [roadmap.md](roadmap.md)
+- Native validation: NOT_RUN; only structural case validator is applicable here
+- Historical comparison after independent result: prior 2026-11-18 Gas Town case had conditional S4 NEEDS_EVIDENCE and a follow-up [verification-20261118.md](verification-20261118.md) indicating NO_USEFUL_CHANGE for new constructor after transition evidence. Fresh v0.18 source-first census confirms scoped NO_GO/NO_QUALIFIED_C_TARGET with explicit status and falsifier; original HEAD is pinned separately and ownership claims limited
+- NO external publication, product code, feature Issue, benchmark or grade change performed
