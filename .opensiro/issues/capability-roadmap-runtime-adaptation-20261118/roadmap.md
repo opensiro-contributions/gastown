@@ -90,3 +90,47 @@
 - Native validation: NOT_RUN; only structural case validator is applicable here
 - Historical comparison after independent result: prior 2026-11-18 Gas Town case had conditional S4 NEEDS_EVIDENCE and a follow-up [verification-20261118.md](verification-20261118.md) indicating NO_USEFUL_CHANGE for new constructor after transition evidence. Fresh v0.18 source-first census confirms scoped NO_GO/NO_QUALIFIED_C_TARGET with explicit status and falsifier; original HEAD is pinned separately and ownership claims limited
 - NO external publication, product code, feature Issue, benchmark or grade change performed
+
+## Second independent NO_GO re-evaluation (2026-11-19 UTC, 2026-11-19T23:09:29Z)
+
+This is an explicitly requested REPEAT of an already evaluated NO_GO case, NOT an initial review of a still-unrun original. The first-pass verdict was not consulted until after this source-first decision. No duplicate case created.
+
+### Admission and scope
+
+- Original: gastownhall/gastown, current main pinned at [94cc82289d2e](https://github.com/gastownhall/gastown/commit/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e).
+- Canonical [Index included assessment](https://github.com/opensiro/vsm-harness-index/blob/c2e43bf4750841277b3e58d8ba80314121734764/assessments/ga/gastown.md): Index c2e43bf4750841277b3e58d8ba80314121734764, accepted blob 63864bc37d10e192d0ae8a96d1bfd6307bb03a09, historical review ref 649b832b7672bc7a2dbef26f5983aba6198b819b (resolves), reviewed 2026-09-19; Profile 0.2.3, Skills procedure 0.3.5.
+- Accepted historic vector: S1=A / S2=A / S3=A / S3*=A / S4=— / S5=— (not a new regrade).
+- System: one first-party Gas Town installation: Mayor, Polecats, Witness, Refinery, Deacon, scheduler, configured runtimes, Beads/Dolt and hooks; separate LLM vendor and human Overseer decisions not imported as local agent authority.
+- Original [MIT license](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/LICENSE) and [contribution rules](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/CONTRIBUTING.md) reviewed. External CLA, DCO, AI publication acceptance not independently established; no original communication.
+
+### Fresh whole-repository six-function screen
+
+| Function | Shipped first-party source and decisive feedback owner | Result |
+| --- | --- | --- |
+| S1 | [Polecat role](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/templates/roles/polecat.md.tmpl), hooks/worktrees; worker agent chooses and implements code, submits result | ALREADY_A |
+| S2 | [Refinery role](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/templates/roles/refinery.md.tmpl) orders and rebases competing branches, returns integration failure through Witness | ALREADY_A |
+| S3 | [Mayor role](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/templates/roles/mayor.md.tmpl), [scheduler](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/docs/design/scheduler.md) and Beads; Mayor decides current dispatch/priority and escalations | ALREADY_A |
+| S3* | Independent [Refinery](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/templates/roles/refinery.md.tmpl) checks merge and fails/reopens work via [Witness](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/templates/roles/witness.md.tmpl) | ALREADY_A |
+| S4 | [Static role/model cost tiers](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/config/cost_tier.go), [custom presets](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/config/agents.go), [formula overlays](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/docs/design/directives-and-overlays.md) handle current choices; no demonstrated distinct future-to-later-task closure | NO_QUALIFIED_C_TARGET |
+| S5 | [Human Overseer configuration](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/config/overseer.go) and [e-stop](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/estop/estop.go) bound permission; ultimate identity and purpose remain parent-owned | PARENT_BOUNDARY |
+
+### Parallel Track A / Track B, same-task baselines and falsifier
+
+| Operator outcome | Track A existing or owner-native cheapest path | Track B minimal hypothetical on-top C | Sufficiency assessment |
+| --- | --- | --- | --- |
+| Choose a provider after a new price, failure or deprecation | Supported role-agent config, model cost tiers, custom presets and manual next-session action. Original [routing issue #2784](https://github.com/gastownhall/gastown/issues/2784) CLOSED, already describes intelligent agent tiers and Witness failure feedback | Read dated forward change, decide hold/retain/approved fallback, apply only to future sessions, receive later task result | Missing incremental demonstrated task outcome and lawful new prospective decision owner; present failure-based routing alone belongs to S3 |
+| Avoid repeated poor future task/model strategies | Existing observability and original [learning issue #1143](https://github.com/gastownhall/gastown/issues/1143) OPEN: long-term cost/outcome learning and preflight choices, with maintainer triage recommending a simpler stats reader first | Introduce an autonomous prospective evaluator over outcomes, choose future strategy, measure actual next-task feedback | Native issue already covers functional objective. No observed controlled win over cheap stats or operator-managed option, so new separate manager not justified |
+| Make model cost inputs accurate | [Current costs source](https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/internal/cmd/costs.go); original [pricing PR #4981](https://github.com/gastownhall/gastown/pull/4981) OPEN, not shipped | New future-learning controller compensates for stale pricing | Direct pricing fix wins before another control system; open PR is not attributed as current code |
+
+A complete S4 construction requires (1) credible longitudinal or future external signal beyond current failure, (2) two lawful alternatives decided by a specific independent first-party actor, (3) authorized guarded impact on later actual sessions, and (4) measured next-task return that changes a subsequent decision. Track B has no evidenced minimum first-party port delivering all four *above* native Issue/PR work and manual controls. The historical S4 absence does not automatically make it a defect.
+
+- **P0:** NO_QUALIFIED_C_TARGET. **P1:** NONE. **P2:** NONE.
+- **Scoped verdict:** NO_GO / NO_USEFUL_CHANGE; research decision-ready for this bounded question, not a product-wide judgement.
+- **Scenario:** HYPOTHETICAL. **Native tests:** NOT_RUN. **Cost/outcome comparator:** NOT_MEASURED.
+- **Falsifier:** On a dated observed prospective provider/task-outcome change, demonstrate new first-party owner with explicit delegated choices and revocation/stale-signal gates, guarded later-session effect, true task return and better matched latency/retries/cost or verified acceptance against baseline role_agents/cost-tier and simple #1143 statistics. A genuinely smaller native-compatible on-top port with nonduplicated rights and measured advantage reverses this NO_GO.
+
+### After-decision comparison, not reused as input
+
+Previous persisted 2026-11-19 v0.18 Gas Town case: same NO_GO / NO_QUALIFIED_C_TARGET / NO_USEFUL_CHANGE, earlier focus on model-version migration and Gas City ownership. This second source-first decision retains that result but adds independent checks of the native cost/outcome learning issue #1143, intelligent routing #2784 and still-open pricing PR #4981. Same original main HEAD, same accepted assessment blob; not a new harness or proof of higher quality.
+
+**Authority/publication:** fork state ACTIVE / ALLOW. Internal case documents only. Historical public fork [Issue #1](https://github.com/opensiro-contributions/gastown/issues/1) unchanged. No public fork Issue/PR, original maintainer message, implemented change, new C, native test pass, cost saving claim or Index regrade.

@@ -34,3 +34,9 @@ A concrete operator task where an independently developer-composed, authorized f
 
 ## Provenance and handoff
 Previous conditional Gas Town S4 plan and its follow-up 2026-11-18 no-useful-change observation are retained as history; this independent re-run adds six-function source-pinned v0.18 dispositions and explicit `NO_GO / NO_QUALIFIED_C_TARGET`. No public Issue, PR, fork product change or new Index vector is authorized.
+
+## Owner-requested second review — 2026-11-19T23:09:29Z
+
+**Still NO_GO / NO_QUALIFIED_C_TARGET / NO_USEFUL_CHANGE** for a separate *new C constructor*, not for the Gas Town product. This is the second pass after a completed v0.18 result; full [six-function source comparison](roadmap.md), original [94cc82289d2e](https://github.com/gastownhall/gastown/commit/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e), accepted [Index record](https://github.com/opensiro/vsm-harness-index/blob/c2e43bf4750841277b3e58d8ba80314121734764/assessments/ga/gastown.md). Existing S1/S2/S3/S3* owners are strong. New S4 proposal does not beat native role configuration plus the actual open [long-term learning Issue #1143](https://github.com/gastownhall/gastown/issues/1143), previously closed [intelligent agent routing Issue #2784](https://github.com/gastownhall/gastown/issues/2784) and open [model-pricing PR #4981](https://github.com/gastownhall/gastown/pull/4981).
+
+**P0:** none. **P1/P2:** none. Reconsider only with an authorized future signal → two legitimate future choices → guarded later session effect → real measured task result that improves on the cheap native comparator. Format validation only; no native tests, benchmarks, implementations, external publications or Index grade change. The existing historical public fork Issue #1 remains unchanged.

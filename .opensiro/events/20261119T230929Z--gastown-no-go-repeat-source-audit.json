@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "20261119T230929Z--gastown-no-go-repeat-source-audit",
+  "recorded_at": "2026-11-19T23:09:29Z",
+  "actor": "AI-assisted Upstream operator, owner-requested repeat",
+  "kind": "CHECKPOINT",
+  "decision": "GASTOWN_REPEAT_NO_GO_NO_QUALIFIED_C_TARGET",
+  "scope": "Second source-first original six-function research repeat, metadata-only and no external publication",
+  "original_repository": "gastownhall/gastown",
+  "original_head": "94cc82289d2ead275a62e1db4ef1d4ada4a1f98e",
+  "accepted_index_commit": "c2e43bf4750841277b3e58d8ba80314121734764",
+  "accepted_assessment_blob_sha": "63864bc37d10e192d0ae8a96d1bfd6307bb03a09",
+  "case_id": "capability-roadmap-runtime-adaptation-20261118",
+  "previous_first_pass": "20261119T183144Z--gastown-independent-six-function-v018-verified",
+  "target_transition": "NO_QUALIFIED_C_TARGET",
+  "proposal_stage_decision": "NO_GO",
+  "research_disposition": "NO_USEFUL_CHANGE",
+  "native_validation": "NOT_RUN",
+  "cost_status": "NOT_MEASURED",
+  "evidence_urls": [
+    "https://github.com/gastownhall/gastown/commit/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e",
+    "https://github.com/opensiro/vsm-harness-index/blob/c2e43bf4750841277b3e58d8ba80314121734764/assessments/ga/gastown.md",
+    "https://github.com/gastownhall/gastown/issues/1143",
+    "https://github.com/gastownhall/gastown/issues/2784",
+    "https://github.com/gastownhall/gastown/pull/4981"
+  ],
+  "publication": "NONE; historical fork public Issue #1 unchanged"
+}

@@ -28,3 +28,7 @@ The **existing public fork-local [Issue #1](https://github.com/opensiro-contribu
 This verdict does **not** reject native fixes, Gas Town as a product or an independently justified future proposal. Reopen only if an original-specific autonomous future-choice → legitimate later action → real task-feedback loop beats the native/manual and separate Gas City alternatives.
 
 **External original Issues/PRs/comments:** none. **Public fork Issue #1:** historical, unchanged. **Product implementation:** none.
+
+## Second source-first decision — 2026-11-19T23:09:29Z
+
+The owner requested a *repeat* among existing NO_GO cases. **Result remains NO_GO / NO_QUALIFIED_C_TARGET / NO_USEFUL_CHANGE**, now independently checked against original learning [#1143](https://github.com/gastownhall/gastown/issues/1143), routing [#2784](https://github.com/gastownhall/gastown/issues/2784), and pricing [PR #4981](https://github.com/gastownhall/gastown/pull/4981). Full original/Index pins, Track A/B, six functions, specific falsifier and comparison only-after-verdict are appended to [roadmap.md](roadmap.md); Human and AI companions updated. Native tests and measured costs not run. Existing public fork Issue #1 unchanged; no external publication.
