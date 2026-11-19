@@ -1,32 +1,30 @@
-# Gas Town capability roadmap — fork-local case
+# Gas Town — OpenSiro independent Capability Roadmap
 
-**Original:** [gastownhall/gastown](https://github.com/gastownhall/gastown) → verified [opensiro-contributions/gastown](https://github.com/opensiro-contributions/gastown) (`fork=true`, parent `gastownhall/gastown`).  
-**Storage:** `opensiro/meta:.opensiro/issues/capability-roadmap-runtime-adaptation-20261118/` — never product/main.  
-**Latest decision:** PLAN_ONLY / NO_USEFUL_CHANGE for a new S4 constructor in Gas Town (follow-up 2026-11-18); original published Issue remains the historical NEEDS_EVIDENCE snapshot. Fork Issue **PUBLISHED** ([#1](https://github.com/opensiro-contributions/gastown/issues/1)); publication approved for exact title/body, unchanged from `issue.md`.  
-**Observation:** 2026-11-18.
+## Current decision · Upstream v0.18 · 2026-11-19
 
+**Source:** [gastownhall/gastown@94cc822](https://github.com/gastownhall/gastown/commit/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e).  
+**Accepted Index:** [included assessment](https://github.com/opensiro/vsm-harness-index/blob/394ce776e6945115891b8f7cc459f5a7f7d7aa39/assessments/ga/gastown.md), reviewed 2026-09-19 at `649b832b`; historical **S1=A · S2=A · S3=A · S3*=A · S4=— · S5=—**.
 
-## Latest verification verdict
+- **Proposal-stage decision:** `NO_GO`, target `NO_QUALIFIED_C_TARGET`.
+- **Research:** `NO_USEFUL_CHANGE` for an additional proposed *Gas Town-specific* S4 constructor.
+- **Native validation:** `NOT_RUN`. **Cost:** `NOT_MEASURED`. No Index reassessment or product change.
+- **Current authority:** check the current `.opensiro/state.json`; owner activated Upstream #58 review queue on 2026-11-19, not external publication.
 
-**[Follow-up source review: NO_USEFUL_CHANGE for new S4 implementation in retired Gas Town](verification-20261118.md).** Maintainer confirmed migration to Gas City, and Gas City's runtime packs, agents, orders, formulas and events are the present first-party engineering extension surface. A separate Gas City S4 constructor hypothesis remains **NEEDS_EVIDENCE**, not DECISION_READY for implementation. No issue comments, Issue-body edits or original-repository actions were made.
+The first-party Polecats, Refinery, Mayor and distinct review loops already own S1/S2/S3/S3* autonomously in the historical boundary. A prospective model/provider migration agent would require a separate trustworthy future signal, a lawful policy envelope, safe later-session effect and returned actual task result; the current original does not supply a qualified **minimal differentiated C integration** beyond supported upgrade/config paths. Version staleness detection and a design document about model-aware molecules do not themselves prove future-oriented S4 closure.
 
-## One case, two audiences
+Maintainer [closed original #3147](https://github.com/gastownhall/gastown/issues/3147#issuecomment-4151252437) with direction to consider new pool-strategy work in **Gas City**. Gas Town remains a public, non-archived repository; that targeted maintainer decision is *not* evidence that all Gas Town activity stopped.
 
-- **[Human-facing Issue / exact proposed public body](issue.md)**: OpenSiro hypothesis and accepted six-function starting assessment first, then problem, P0 S4/P1 prerequisites/P2 NONE and decision.
-- **[AI/developer constructor sufficiency](constructor-sufficiency.md)**: source-native actors, rights, five-port S4 proposal, cases, falsifiers, test commands. Links back to Human.
-- **[Pinned research receipt](roadmap.md)**: Source and Index pins, rights, original Issues/PR overlap, cost and next steps.
+## Canonical documents
 
-## Current source and original overlap
+- [roadmap.md](roadmap.md) — current independent six-function receipt, original/Index pins, scope, Track A/B, P0 and falsifier.
+- [issue.md](issue.md) — current **fork-local Human research file**, updated on 2026-11-19; **not the exact body of published fork Issue #1**.
+- [constructor-sufficiency.md](constructor-sufficiency.md) — current AI/developer review contract; not proof of implementation.
+- [verification-20261118.md](verification-20261118.md) — historical follow-up establishing a narrower no-useful-change engineering result.
 
-- **Original pinned HEAD:** [94cc82289d2ead275a62e1db4ef1d4ada4a1f98e](https://github.com/gastownhall/gastown/commit/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e), default `main`, observed 2026-11-18.
-- **Accepted Index:** [Gas Town](https://github.com/opensiro/vsm-harness-index/blob/03b3cd41621b85cb4c2418eab574db030493512c/assessments/ga/gastown.md) historical vector **S1=A · S2=A · S3=A · S3*=A · S4=— · S5=—**, reviewed 2026-09-19 at `649b832b7672bc7a2dbef26f5983aba6198b819b`; source drift and 60-day freshness advisory.
-- **Source-native overlap:** [#232](https://github.com/gastownhall/gastown/issues/232) (open), [#4332](https://github.com/gastownhall/gastown/issues/4332) (open), [#1143](https://github.com/gastownhall/gastown/issues/1143) (open), [#3147](https://github.com/gastownhall/gastown/issues/3147) (closed / Gas City), [#1564](https://github.com/gastownhall/gastown/pull/1564) (merged), [#1729](https://github.com/gastownhall/gastown/pull/1729) (closed unmerged), [#4981](https://github.com/gastownhall/gastown/pull/4981) (open).
-- **Scope:** no product code, fork-local PR, external original Issue or contribution record; no tests executed, no savings measured.
+## Historical public Issue and boundaries
 
-## Public Issue and ownership
+The **existing public fork-local [Issue #1](https://github.com/opensiro-contributions/gastown/issues/1)** was published with its **older, expressly approved 2026-11-18 body**, which described a conditional S4 `NEEDS_EVIDENCE` research proposal. Its body has **not been changed** by this re-run, and may therefore disagree with the updated fork-local `issue.md`. This README and canonical receipt identify the newer **2026-11-19 scoped `NO_GO / NO_QUALIFIED_C_TARGET / NO_USEFUL_CHANGE`** decision without silently republishing an unapproved Issue body.
 
-**Fork public GitHub Issue:** [#1 — published and read back](https://github.com/opensiro-contributions/gastown/issues/1) at 2026-11-18T17:14:19Z (UTC), with the exact user-approved title and full unchanged `issue.md` text (blob `424450fccca6ce1ed7a14a105ea983560658600c`).  
-**External original Issue:** DRAFT — NOT PUBLISHED; preferred outcome first is reuse or link existing original #4332/#232/#1143, not duplicate publication.  
-**Next decision:** review source-native overlap, target ownership (Gas Town versus Gas City) and missing S4 evidence before any implementation; **no original-repository publication, code or PR is authorized**. The owner explicitly approved this **fork-local Issue only** in the current conversation.
+This verdict does **not** reject native fixes, Gas Town as a product or an independently justified future proposal. Reopen only if an original-specific autonomous future-choice → legitimate later action → real task-feedback loop beats the native/manual and separate Gas City alternatives.
 
-The case is one research/discussion record, **not** an independently implemented `.opensiro/contributions/` entry. Any later source implementation requires a separate `upstream upgrade` instruction and original-native validation.
+**External original Issues/PRs/comments:** none. **Public fork Issue #1:** historical, unchanged. **Product implementation:** none.
