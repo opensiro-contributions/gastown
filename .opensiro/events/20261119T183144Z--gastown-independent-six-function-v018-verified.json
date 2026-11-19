@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "20261119T183144Z--gastown-independent-six-function-v018-verified",
+  "recorded_at": "2026-11-19T18:31:44Z",
+  "actor": "AI-assisted OpenSiro Upstream operator",
+  "kind": "CHECKPOINT",
+  "decision": "GASTOWN_V018_NO_GO_RESEARCH_NO_USEFUL_CHANGE",
+  "scope": "Independent six-function source-pinned proposal-stage rerun; fork-local research metadata only; no external original or public fork Issue/PR/comment",
+  "original_repository": "gastownhall/gastown",
+  "original_head": "94cc82289d2ead275a62e1db4ef1d4ada4a1f98e",
+  "accepted_index_commit": "394ce776e6945115891b8f7cc459f5a7f7d7aa39",
+  "case_id": "capability-roadmap-runtime-adaptation-20261118",
+  "target_transition": "NO_QUALIFIED_C_TARGET",
+  "proposal_stage_decision": "NO_GO",
+  "research_disposition": "NO_USEFUL_CHANGE",
+  "native_validation": "NOT_RUN",
+  "cost_status": "NOT_MEASURED",
+  "structural_validation": {
+    "command": "python3 scripts/validate_capability_roadmap.py <case-dir>",
+    "result": "PASS (remote opensiro/meta HEAD re-fetched 2026-11-19; syntactic, not semantic review)",
+    "protocol_ref": "4db2e1cd8666afd4981afb6c2270c37e96c36ead"
+  },
+  "current_fork_state": {
+    "owner_control": "ALLOW",
+    "attention": "ACTIVE"
+  },
+  "evidence_urls": [
+    "https://github.com/opensiro-contributions/gastown/blob/opensiro/meta/.opensiro/issues/capability-roadmap-runtime-adaptation-20261118/README.md",
+    "https://github.com/opensiro-contributions/gastown/blob/opensiro/meta/.opensiro/issues/capability-roadmap-runtime-adaptation-20261118/roadmap.md",
+    "https://github.com/opensiro-contributions/gastown/blob/opensiro/meta/.opensiro/issues/capability-roadmap-runtime-adaptation-20261118/issue.md",
+    "https://github.com/opensiro-contributions/gastown/blob/opensiro/meta/.opensiro/issues/capability-roadmap-runtime-adaptation-20261118/constructor-sufficiency.md",
+    "https://github.com/gastownhall/gastown/commit/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e",
+    "https://github.com/opensiro/upstream/issues/58"
+  ],
+  "publication": "NONE from this rerun; existing historic Gas Town fork public Issue #1 remains unchanged",
+  "next_action": "No new S4 constructor for this original; reopen only on new first-party actor/authority/future-effect/actual task return and different matched native outcome"
+}
