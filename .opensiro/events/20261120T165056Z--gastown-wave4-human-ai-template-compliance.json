@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "20261120T165056Z--gastown-wave4-human-ai-template-compliance",
+  "recorded_at": "2026-11-20T16:50:56Z",
+  "actor": "AI-assisted Upstream operator, owner-requested template correction",
+  "kind": "CHECKPOINT",
+  "decision": "GASTOWN_WAVE4_HUMAN_AI_TEMPLATE_COMPLIANCE",
+  "scope": "Align stable Gas Town Wave 4 Human and AI case artifacts with current Upstream template before any outward PR; no new Roadmap verdict or external publication",
+  "original_repository": "gastownhall/gastown",
+  "original_head": "94cc82289d2ead275a62e1db4ef1d4ada4a1f98e",
+  "case_id": "capability-roadmap-runtime-adaptation-20261118",
+  "previous_case_commit": "c8105fec0084f8792c2a026f33ca2af229ad9004",
+  "accepted_index_commit": "b812936829394d2f1a80fb95915688f20cc1d622",
+  "target_transition": "S4=— -> S4=C",
+  "proposal_stage_decision": "GO",
+  "research_disposition": "NEEDS_EVIDENCE",
+  "standard_validator": "PASS",
+  "strict_publication_template_validator": "PASS_NOT_PUBLICATION_APPROVAL",
+  "structural_validator_proposed_in": "https://github.com/opensiro/upstream/pull/90",
+  "native_validation": "NOT_RUN",
+  "publication": "NONE; original PR/Issue not sent; historical fork Issue #1 unchanged",
+  "files": [
+    "issue.md",
+    "constructor-sufficiency.md"
+  ],
+  "evidence_urls": [
+    "https://github.com/gastownhall/gastown/commit/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e",
+    "https://github.com/opensiro/upstream/blob/29d578afce7b6b6d2cff060f772cb590c8695e40/templates/FORK_CAPABILITY_ROADMAP_ISSUE.md",
+    "https://github.com/opensiro/upstream/blob/29d578afce7b6b6d2cff060f772cb590c8695e40/templates/ROADMAP_AI_CONSTRUCTOR_CONTRACT.md"
+  ]
+}
