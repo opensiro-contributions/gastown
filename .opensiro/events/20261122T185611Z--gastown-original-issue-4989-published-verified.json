@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "20261122T185611Z--gastown-original-issue-4989-published-verified",
+  "recorded_at": "2026-11-22T18:56:11Z",
+  "actor": "OpenSiro Upstream operator using approved xLagerFeuer GitHub identity",
+  "kind": "EXTERNAL_ORIGINAL_ISSUE_PUBLICATION_VERIFIED",
+  "decision": "PUBLISHED_AND_READBACK_VERIFIED",
+  "original_repo": "gastownhall/gastown",
+  "working_fork": "opensiro-contributions/gastown",
+  "case_id": "capability-roadmap-runtime-adaptation-20261118",
+  "external_issue_number": 4989,
+  "external_issue_url": "https://github.com/gastownhall/gastown/issues/4989",
+  "external_issue_state_at_readback": "OPEN",
+  "created_at": "2026-11-22T18:55:42Z",
+  "author": "xLagerFeuer",
+  "consent": "Explicit current-conversation owner approval after exact native template/field comparison/full title/full body shown",
+  "title_sha256": "65d041559830a8021e51a827ee28fd15dc549bdf9b7343ba332f5f1d8d4a6559",
+  "body_sha256": "7ce04cc8815a7631f563ce49c70b04af3f3cc9e313d30da8af9578acf27d3d96",
+  "original_source_head": "94cc82289d2ead275a62e1db4ef1d4ada4a1f98e",
+  "native_issue_template_blob_sha": "cc48ead2053600823bbc329fbbcc5e1c092f09cc",
+  "validation": "Canonical, Human/AI, current source, native Markdown 5-fields, nested OpenSiro 7-sections, exact lineage and first-party preflights PASS, original GitHub POST and GET readback exact match",
+  "provider_labels_at_second_readback": [
+    "status/needs-triage"
+  ],
+  "evidence_urls": [
+    "https://github.com/gastownhall/gastown/issues/4989",
+    "https://github.com/opensiro/upstream/pull/108",
+    "https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/.github/ISSUE_TEMPLATE/feature_request.md"
+  ],
+  "limitations": "PLAN_ONLY/GO_NEEDS_EVIDENCE. No shipped S4, tests, Index regrade or maintainer approval. Future third-party action needs exact separate consent."
+}
