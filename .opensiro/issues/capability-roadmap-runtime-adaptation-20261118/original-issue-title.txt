@@ -1,0 +1,1 @@
+Proposal: optional Deacon runtime-compatibility canary and feedback for Gas Town — Opensiro VSM architecture review

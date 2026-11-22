@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "20261122T183414Z--gastown-native-markdown-original-issue-approval-preview",
+  "recorded_at": "2026-11-22T18:34:14Z",
+  "actor": "OpenSiro Upstream AI-assisted operator (pilot #93)",
+  "kind": "CHECKPOINT",
+  "decision": "GASTOWN_EXTERNAL_NATIVE_MARKDOWN_PREVIEW_READY_NOT_PUBLISHED",
+  "original_repository": "gastownhall/gastown",
+  "original_head": "94cc82289d2ead275a62e1db4ef1d4ada4a1f98e",
+  "case_id": "capability-roadmap-runtime-adaptation-20261118",
+  "previous_case_commit": "c0122a222b98449f68b0ebef9882417489d546b4",
+  "accepted_index_commit": "b812936829394d2f1a80fb95915688f20cc1d622",
+  "target_transition": "S4=— -> S4=C",
+  "proposal_stage_decision": "GO",
+  "research_disposition": "NEEDS_EVIDENCE",
+  "standard_validator": "PASS",
+  "strict_publication_template_validator": "PASS_NOT_PUBLICATION_APPROVAL",
+  "native_markdown_template": "https://github.com/gastownhall/gastown/blob/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e/.github/ISSUE_TEMPLATE/feature_request.md",
+  "native_template_blob_sha": "cc48ead2053600823bbc329fbbcc5e1c092f09cc",
+  "exact_proposed_title": "Proposal: optional Deacon runtime-compatibility canary and feedback for Gas Town — Opensiro VSM architecture review",
+  "title_sha256": "65d041559830a8021e51a827ee28fd15dc549bdf9b7343ba332f5f1d8d4a6559",
+  "body_sha256": "7ce04cc8815a7631f563ce49c70b04af3f3cc9e313d30da8af9578acf27d3d96",
+  "native_validation": "NOT_RUN",
+  "publication": "NOT_PUBLISHED; external Issue exact owner approval pending",
+  "files": [
+    "README.md",
+    "original-issue-draft.md",
+    "publication-approval-preview.md"
+  ],
+  "evidence_urls": [
+    "https://github.com/opensiro/upstream/pull/108",
+    "https://github.com/gastownhall/gastown/issues/4402",
+    "https://github.com/gastownhall/gastown/commit/94cc82289d2ead275a62e1db4ef1d4ada4a1f98e"
+  ]
+}
